@@ -1,0 +1,23 @@
+Agar aap ye palette use kar rahe hain:
+
+Primary: #12ACE3 (Blue)
+Secondary: #1E293B (Dark Blue/Slate)
+Accent: #FFFFFF (White)
+
+To website me is tarah use kar sakte hain:
+
+Element	Color
+Navbar Background	#1E293B
+Navbar Text	#FFFFFF
+Logo Highlight	#12ACE3
+Hero Section Background	#FFFFFF
+Main Headings	#1E293B
+Paragraph Text	#555555 ya #666666
+Primary Buttons	#12ACE3
+Button Text	#FFFFFF
+Button Hover	#0D8FC0
+Cards Background	#FFFFFF
+Card Border/Shadow	Light Gray
+Links Hover	#12ACE3
+Footer Background	#1E293B
+Footer Text	#FFFFFF
