@@ -102,7 +102,7 @@ header {
   }
 
 /* mobile screen size 360px */
-@media (max-width: 360px) {
+@media (min-width: 360px) {
   .navbar h1 {
     font-size: 22px;
   }
@@ -160,7 +160,7 @@ header {
   font-size: 20px;
 }
   .icon a {
-    
+   
     color: #12ace3; /* Yahan apna pasandeda color code dalein */
     text-decoration: none; /* Link ki default line hatane ke liye */
   }
