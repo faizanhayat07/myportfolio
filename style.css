@@ -121,7 +121,7 @@ header {
   }
 
 /* mobile screen size 360px */
-@media (max-width: 360px) {
+@media (min-width: 360px) {
   .navbar h1 {
     font-size: 22px;
   }
