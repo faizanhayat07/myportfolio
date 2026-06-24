@@ -97,12 +97,31 @@ header {
   font-size: 30px;
 }
 .icon a {
-    color: #12ace3; /* Yahan apna pasandeda color code dalein */
-    text-decoration: none; /* Link ki default line hatane ke liye */
+    color: #12ace3; 
+    text-decoration: none; 
+  }
+  .icon a :hover{
+    color: #fff; 
+    text-decoration: none;
+  }
+
+  .btn button{
+    width: 100px;
+    height: 40px;
+    padding: 10px;
+    font-weight: 600;
+    border-radius: 80px;
+    border: 2px solid #0f172a;
+    background-color: #12ace3;
+    color: #fff;
+  }
+  .btn button:hover{
+    background-color: #fff;
+    color: #12ace3;
   }
 
 /* mobile screen size 360px */
-@media (min-width: 360px) {
+@media (max-width: 360px) {
   .navbar h1 {
     font-size: 22px;
   }
