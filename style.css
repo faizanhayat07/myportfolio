@@ -149,6 +149,21 @@ header {
   text-align: center;
 }
 
+.skills-section {
+  max-width: 900px;
+  margin: 0 auto;
+}
+.section-heading {
+  text-align: center;
+  margin-bottom: 3rem;
+}
+.section-heading span {
+  color: #12ace3;
+}
+.skills.cards{
+  display: flex;
+  flex-direction: column;
+}
 /* mobile screen size 480px */
 @media (max-width: 480px) {
   .navbar h1 {
@@ -208,8 +223,8 @@ header {
     font-size: 20px;
   }
   .icon a {
-    color: #12ace3; /* Yahan apna pasandeda color code dalein */
-    text-decoration: none; /* Link ki default line hatane ke liye */
+    color: #12ace3; 
+    text-decoration: none; 
   }
   .About {
     padding: 40px 20px;
