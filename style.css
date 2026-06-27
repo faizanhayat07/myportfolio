@@ -125,9 +125,8 @@ header {
   text-align: center;
 }
 .About h1 {
-  font-size: 55px;
-  font-weight: 600;
-  margin-bottom: 35px;
+  font-size: 2rem;
+  font-weight: 700;
 }
 
 .About span {
@@ -153,7 +152,7 @@ header {
 .Skills_section {
   max-width: 900px;
   margin: 0 auto;
-  padding: 60px 20px;
+  padding: 30px 20px;
 }
 .section_heading {
   text-align: center;
@@ -191,7 +190,7 @@ header {
   border: 1px solid rgba(18, 172, 227, 0.15);
   border-radius: 12px;
   width: calc(25% - 12px);
-  padding: 16px 14px;
+  padding: 12px 14px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -266,16 +265,53 @@ header {
   font-size: 11px;
   color: #94a3b8;
 }
-.chatbot{
+/* chatbot icon */
+.chatbot {
   position: fixed;
-    bottom: 20px;
-    right: 20px;
-    z-index: 1000;
+  bottom: 20px;
+  right: 20px;
+  z-index: 1000;
 }
 .chatbot img {
   width: 40px;
   height: 40px;
 }
+/* Project Section */
+.project {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 30px 20px;
+}
+.project {
+  text-align: center;
+  margin-bottom: 3rem;
+  
+}
+.project h1 {
+  font-size: 2rem;
+  font-weight: 700;
+}
+.project span {
+  color: #12ace3;
+}
+.myproject{
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+}
+.firstproject img{
+  width: 400px;
+  height: 200px;
+}
+.secendproject img{
+  width: 400px;
+  height: 200px;
+}
+
+
+
+
+
 
 /* mobile screen size 480px */
 @media (max-width: 480px) {
@@ -352,14 +388,14 @@ header {
   .skill-card {
     width: calc(50% - 8px);
   }
-  .chatbot{
-  position: fixed;
+  .chatbot {
+    position: fixed;
     bottom: 20px;
     right: 20px;
     z-index: 1000;
-}
-.chatbot img {
-  width: 35px;
-  height: 35px;
-}
+  }
+  .chatbot img {
+    width: 35px;
+    height: 35px;
+  }
 }
