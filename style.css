@@ -285,7 +285,6 @@ header {
 .project {
   text-align: center;
   margin-bottom: 3rem;
-  
 }
 .project h1 {
   font-size: 2rem;
@@ -294,24 +293,19 @@ header {
 .project span {
   color: #12ace3;
 }
-.myproject{
+.myproject {
   display: flex;
   justify-content: center;
   gap: 30px;
 }
-.firstproject img{
+.firstproject img {
   width: 400px;
   height: 200px;
 }
-.secendproject img{
+.secendproject img {
   width: 400px;
   height: 200px;
 }
-
-
-
-
-
 
 /* mobile screen size 480px */
 @media (max-width: 480px) {
@@ -397,5 +391,20 @@ header {
   .chatbot img {
     width: 35px;
     height: 35px;
+  }
+  .myproject {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+  .firstproject img {
+    width: 100%;
+    height: 150px;
+  }
+  .secendproject img {
+    width: 100%;
+    height: 150px;
   }
 }
